@@ -1,9 +1,12 @@
 {
+  "homepage": "mellvingunadi.github.io/D1vaultweb",
   "name": "react-landing-page-2021",
   "version": "1.0.0",
   "scripts": {
     "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
     "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "next start",
     "build-stats": "cross-env ANALYZE=true npm run build",
     "export": "next export",
