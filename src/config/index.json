@@ -1,21 +1,21 @@
 {
   "company": {
-    "name": "React landing page 2021",
-    "logo": "/assets/images/logo.png"
+    "name": "D1 Vault",
+    "logo": "/assets/images/D1_VaultLogo.png"
   },
   "navigation": [
     {
-      "name": "Product",
-      "href": "product"
+      "name": "Ourstory",
+      "href": "ourstory"
     },
     {
-      "name": "Features",
-      "href": "features"
+      "name": "Product",
+      "href": "productServices"
     },
 
     {
-      "name": "Pricing",
-      "href": "pricing"
+      "name": "Collection",
+      "href": "collection"
     },
     {
       "name": "About",
@@ -23,131 +23,94 @@
     }
   ],
   "callToAction": {
-    "text": "Get started",
+    "text": "Contact Us",
     "href": "#"
   },
   "mainHero": {
-    "title": "Use me as your",
-    "subtitle": "landing page.",
+    "title": "D1 Vault",
     "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    "img": "/assets/images/happyTeam.jpeg",
+    "img": "/assets/images/D1_VaultLogo.png",
     "primaryAction": {
-      "text": "Get started",
+      "text": "Contact Us",
       "href": "#"
-    },
-    "secondaryAction": {
-      "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
     }
   },
-  "product": {
-    "title": "React landing page 2021",
+
+  "ourstory": {
+    "title": "Our Story",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
-      },
-      {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
+        "name": "ourstory",
+        "title": "Since 2020",
+        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json Typography is the art and technique of arranging type to make written language legible, readable, and appealing when displayed. It involves choosing typefaces, point sizes, line lengths, line-spacing, and letter-",
+        "img": "/assets/images/newBalance.jpg"
       }
     ]
   },
-  "features": {
-    "title": "Latest & greatest ",
+  "productServices": {
+    "title": "Product & Services ",
     "subtitle": "All the best technologies out there!",
     "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
     "items": [
       {
-        "name": "React.js",
+        "name": "Shop",
         "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
-        "icon": "/assets/images/react.png"
+        "icon": "/assets/images/Shoppingicon.svg"
       },
       {
-        "name": "Tailwind",
+        "name": "Delivery",
         "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
-        "icon": "/assets/images/tailwindcss.svg"
+        "icon": "/assets/images/deliveryIcon.svg"
       },
       {
-        "name": "Next.js",
+        "name": "Authentic",
         "description": "Next.js is a framework for server-rendered React applications using Next.js.",
-        "icon": "/assets/images/nextjs.svg"
-      },
-      {
-        "name": "Typescript",
-        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
-        "icon": "/assets/images/ts.png"
+        "icon": "/assets/images/doneIcon.svg"
       }
     ]
   },
-  "pricing": {
-    "title": "Pricing",
+
+  "collection": {
+    "title": "D1 Vault Collection",
     "items": [
       {
-        "name": "Free",
-        "price": "$0",
-        "priceDetails": "for one user",
-        "features": [
-          "1 user",
-          "Basic Support",
-          "1 GB of storage",
-          "Email support"
-        ]
+        "alt": "first photo",
+        "img": "/assets/images/sbdunk.jpg"
       },
       {
-        "name": "Pro",
-        "price": "$15",
-        "priceDetails": "per user",
-
-        "features": [
-          "5 users",
-          "Priority Support",
-          "10 GB of storage",
-          "Phone and Email support"
-        ]
+        "alt": "second photo",
+        "img": "/assets/images/jordanOneLow.jpg"
       },
       {
-        "name": "Enterprise",
-        "price": "$29",
-        "priceDetails": "per user",
-        "features": [
-          "50 users",
-          "24/7 Support",
-          "100 GB of storage",
-          "Phone and Email support"
-        ]
+        "alt": "third photo",
+        "img": "/assets/images/newBalance550.jpg"
+      },
+      {
+        "alt": "fourth photo",
+        "img": "/assets/images/jordanBox.jpg"
+      },
+      {
+        "alt": "fifth photo",
+        "img": "/assets/images/jordanOneLow1.jpg"
+      },
+      {
+        "alt": "sixth photo",
+        "img": "/assets/images/jordan2.jpg"
       }
     ]
   },
+
   "about": {
     "sections": [
       {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
+        "name": "Contact Us",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       }
     ],
     "socialMedia": {
-      "github": "https://github.com/issaafalkattan",
-      "twitter": "https://twitter.com/issaafkattan",
-      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+      "instagram": "https://www.instagram.com/d1vault_/?img_index=1",
+      "tokopedia": "https://www.tokopedia.com/d1vaultstore",
+      "email": "#"
     }
   }
 }
