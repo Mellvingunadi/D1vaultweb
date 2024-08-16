@@ -10,7 +10,7 @@ const Collection = () => {
     <section className={`bg-[#232323] py-8`} id="collection">
       <div className={`container mx-auto px-2 pt-4 pb-12 text-primary`}>
         <h1
-          className={`w-full my-2 text-5xl font-bold leading-tight text-center text-white`}
+          className={`w-full my-2 text-5xl font-semibold leading-tight text-center text-white`}
         >
           {title}
         </h1>

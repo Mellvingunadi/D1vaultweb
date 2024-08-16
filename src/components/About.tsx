@@ -18,12 +18,12 @@ const About = () => {
         </div>
         <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12">
           {sections.map((section, index) => (
-            <a
+            <h1
               key={`${section.name}-${index}`}
-              className="text-base leading-4 text-white"
+              className=" font-medium text-xl leading-4 text-white"
             >
               {section.name}
-            </a>
+            </h1>
           ))}
         </div>
         <div className="flex items-center gap-x-8 mt-6 h-8">

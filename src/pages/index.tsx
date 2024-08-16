@@ -1,6 +1,7 @@
 import React from 'react';
 
 import About from '../components/About';
+import Ourstory from '../components/AboutUs';
 import Analytics from '../components/Analytics';
 import Canvas from '../components/Canvas';
 import Collection from '../components/Collection';
@@ -8,8 +9,7 @@ import Header from '../components/Header';
 import LazyShow from '../components/LazyShow';
 import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
-import Ourstory from '../components/OurStory';
-import ProductServices from '../components/ProducrServices';
+import ProductServices from '../components/ProductServices';
 
 const App = () => {
   return (

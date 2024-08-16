@@ -28,7 +28,8 @@
   },
   "mainHero": {
     "title": "D1 Vault",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "subtitle": "Your Trusted Source for Bulk Shoe Purchases",
+    "description": "We specialize in providing high-quality footwear at unbeatable prices for retailers, wholesalers, and businesses looking to stock up on the latest trend",
     "img": "/assets/images/D1_VaultLogo.png",
     "primaryAction": {
       "text": "Contact Us",
@@ -36,66 +37,66 @@
     }
   },
 
-  "ourstory": {
-    "title": "Our Story",
+  "aboutUs": {
+    "title": "About Us",
     "items": [
       {
         "name": "ourstory",
         "title": "Since 2020",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json Typography is the art and technique of arranging type to make written language legible, readable, and appealing when displayed. It involves choosing typefaces, point sizes, line lengths, line-spacing, and letter-",
-        "img": "/assets/images/newBalance.jpg"
+        "description": "We specialize in providing high-quality footwear at unbeatable prices for retailers, wholesalers, and businesses looking to stock up on the latest trends. Whether you're a small boutique or a large chain, our vast selection ensures that you find the perfect styles to meet your customers' needs.",
+        "img": "/assets/images/travisScottPhantom.jpg"
       }
     ]
   },
   "productServices": {
     "title": "Product & Services ",
-    "subtitle": "All the best technologies out there!",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "subtitle": "Authenticity and Quality You Can Trust",
+    "description": "We pride ourselves on delivering only the finest, authentic footwear to our clients",
     "items": [
       {
         "name": "Shop",
-        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
+        "description": "Explore our extensive range of shoes, with detailed descriptions and images to help you make informed decisions.",
         "icon": "/assets/images/Shoppingicon.svg"
       },
       {
         "name": "Delivery",
-        "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
+        "description": "Enjoy fast, reliable shipping straight to your business location.",
         "icon": "/assets/images/deliveryIcon.svg"
       },
       {
         "name": "Authentic",
-        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
+        "description": "Every shoe in our collection is sourced directly from trusted manufacturers and distributors. We guarantee that all our products are genuine.",
         "icon": "/assets/images/doneIcon.svg"
       }
     ]
   },
 
   "collection": {
-    "title": "D1 Vault Collection",
+    "title": "Our Products",
     "items": [
       {
         "alt": "first photo",
-        "img": "/assets/images/sbDunk.jpg"
+        "img": "/assets/images/sbdunklow.jpg"
       },
       {
         "alt": "second photo",
-        "img": "/assets/images/nextjs.svg"
-      },
-      {
-        "alt": "third photo",
         "img": "/assets/images/newBalance550.jpg"
       },
       {
+        "alt": "third photo",
+        "img": "/assets/images/jordanOneLowUNC.jpg"
+      },
+      {
         "alt": "fourth photo",
-        "img": "/assets/images/jordanBox.jpg"
+        "img": "/assets/images/jordanOneLowBrown.jpg"
       },
       {
         "alt": "fifth photo",
-        "img": "/assets/images/jordanOneLow1.jpg"
+        "img": "/assets/images/jordanOneLowGrey.jpg"
       },
       {
         "alt": "sixth photo",
-        "img": "/assets/images/jordan2.jpg"
+        "img": "/assets/images/newBalance.jpg"
       }
     ]
   },
@@ -103,8 +104,7 @@
   "about": {
     "sections": [
       {
-        "name": "Contact Us",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "name": "Contact Us"
       }
     ],
     "socialMedia": {
