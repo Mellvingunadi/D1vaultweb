@@ -6,16 +6,17 @@ const MainHero = () => {
   const { mainHero } = config;
   return (
     <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-      <div className="sm:text-center lg:text-left">
-        <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-          <span className="block text-white xl:inline">{mainHero.title}</span>{' '}
-        </h1>
+      <div className="sm:text-center items-start lg:text-left lg:items-start  lg:justify-start">
+        <img
+          className="flex justify-start object-left"
+          src="/assets/images/D1vaultlogo.svg"
+          alt="logoImage"
+        />
         <h5 className="text-xl tracking-tight font-medium text-gray-900 sm:text-xl md:text-2xl">
           <span className="block text-white xl:inline">
             {mainHero.subtitle}
           </span>{' '}
         </h5>
-
         <p className="mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
           {mainHero.description}
         </p>

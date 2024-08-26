@@ -28,9 +28,9 @@
   },
   "mainHero": {
     "title": "D1 Vault",
-    "subtitle": "Your Trusted Source for Bulk Shoe Purchases",
+    "subtitle": "We guarantee that all our products are genuine",
     "description": "We specialize in providing high-quality footwear at unbeatable prices for retailers, wholesalers, and businesses looking to stock up on the latest trend",
-    "img": "/assets/images/D1_VaultLogo.png",
+    "img": "/assets/images/jordanOneGrey2.jpg",
     "primaryAction": {
       "text": "Contact Us",
       "href": "#"
@@ -51,7 +51,7 @@
   "productServices": {
     "title": "Product & Services ",
     "subtitle": "Authenticity and Quality You Can Trust",
-    "description": "We pride ourselves on delivering only the finest, authentic footwear to our clients",
+    "description": "We guarantee that all our products are genuine",
     "items": [
       {
         "name": "Shop",
@@ -97,6 +97,14 @@
       {
         "alt": "sixth photo",
         "img": "/assets/images/newBalance.jpg"
+      },
+      {
+        "alt": "seventh photo",
+        "img": "/assets/images/newBalance550.jpg"
+      },
+      {
+        "alt": "eight photo",
+        "img": "/assets/images/adidasSamba.jpg"
       }
     ]
   },

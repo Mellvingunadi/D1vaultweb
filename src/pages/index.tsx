@@ -22,8 +22,8 @@ const App = () => {
             <Header />
             <MainHero />
           </div>
+          <MainHeroImage />
         </div>
-        <MainHeroImage />
       </div>
       <LazyShow>
         <>

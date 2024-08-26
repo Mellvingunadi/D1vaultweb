@@ -12,6 +12,16 @@ const Menu = () => {
 
   return (
     <>
+      <svg
+        className={`hidden lg:block absolute right-0 inset-y-0 h-full  w-48 transform translate-x-1/2`}
+        fill="#232323"
+        viewBox="0 0 100 100"
+        preserveAspectRatio="none"
+        aria-hidden="true"
+      >
+        <polygon points="50,0 100,0 50,100 0,100" />
+      </svg>
+
       <Popover>
         <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
           <nav
@@ -24,7 +34,7 @@ const Menu = () => {
                   <span className="sr-only">{companyName}</span>
                   <img
                     alt="logo"
-                    className="h-[80px] w-auto sm:h-[45px]"
+                    className="h-[5rem] w-auto sm:h-[5rem]"
                     src={logo}
                   />
                 </a>
