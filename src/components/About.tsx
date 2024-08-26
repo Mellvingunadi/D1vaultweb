@@ -100,7 +100,7 @@ const About = () => {
           </a>
           <a
             aria-label="email"
-            href={socialMedia.email}
+            href={socialMedia.shoppee}
             target="_blank"
             rel="noreferrer"
           >
@@ -122,21 +122,18 @@ const About = () => {
               <g id="SVGRepo_iconCarrier">
                 {' '}
                 <path
-                  d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7"
-                  stroke="#ffffff"
+                  d="M5 9C5 7.89543 5.89543 7 7 7H17C18.1046 7 19 7.89543 19 9V18C19 19.6569 17.6569 21 16 21H8C6.34315 21 5 19.6569 5 18V9Z"
+                  stroke="#FAFAFA"
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 />{' '}
-                <rect
-                  x="3"
-                  y="5"
-                  width="18"
-                  height="14"
-                  rx="2"
-                  stroke="#ffffff"
+                <path
+                  d="M15 10V6C15 4.34315 13.6569 3 12 3V3C10.3431 3 9 4.34315 9 6V10"
+                  stroke="#FAFAFA"
                   strokeWidth="2"
                   strokeLinecap="round"
+                  strokeLinejoin="round"
                 />{' '}
               </g>
             </svg>
